@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Section 1: Video Background */
+.video-section {
+    position: relative;
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: centre;
+    bottom: 80;
+    background: rgba(241, 235, 235, 0.007);
+    color: #cc1c1cd8;
+    width: 80%;
+    padding: left30px;
+}
+
+/* Section 2: Two Columns */
+.two-columns {
+    display: flex;
+    background-color: #fff;
+    color: #000;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Section 3: Featured Projects */
+.featured-projects {
+    padding: 20px;
+}
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh; /* Adjust as needed */
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: auto;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #edfd0d;
+}
+
